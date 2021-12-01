@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Work/Projects/WisBlock-Github-Repos/WisBlock-BeeGee/RAK11300-AT-Command-Firmware/RAK11300-AT-PlatformIO/.pio/build/rak11300/firmware.elf",
+            "projectEnvName": "rak11300",
+            "toolchainBinDir": "C:/Users/RAKwireless/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/RAKwireless/.platformio/platforms/raspberrypi/misc/svd/rp2040.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Work/Projects/WisBlock-Github-Repos/WisBlock-BeeGee/RAK11300-AT-Command-Firmware/RAK11300-AT-PlatformIO/.pio/build/rak11300/firmware.elf",
+            "projectEnvName": "rak11300",
+            "toolchainBinDir": "C:/Users/RAKwireless/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/RAKwireless/.platformio/platforms/raspberrypi/misc/svd/rp2040.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "c:/Work/Projects/WisBlock-Github-Repos/WisBlock-BeeGee/RAK11300-AT-Command-Firmware/RAK11300-AT-PlatformIO/.pio/build/rak11300/firmware.elf",
+            "projectEnvName": "rak11300",
+            "toolchainBinDir": "C:/Users/RAKwireless/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/RAKwireless/.platformio/platforms/raspberrypi/misc/svd/rp2040.svd",
+            "loadMode": "manual"
+        }
+    ]
+}
