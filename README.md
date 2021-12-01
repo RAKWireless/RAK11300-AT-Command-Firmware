@@ -17,7 +17,7 @@ _This firmware uses some functions to access the flash memory that are available
 
 ----
 
-All AT commands are listed and explained in the [AT-Command Manual](./AT-Commands.md). 
+All AT commands are listed and explained in the [AT-Command Manual](./AT-Command.md). 
 
 ## Short example for OTAA connection test:    
 Set the DevEUI
@@ -50,7 +50,8 @@ Log output:
 ============================
 RAK11300 AT Command Firmware
 SW Version 1.0.0
-LoRa(R) is a registered trademark or service mark of Semtech Corporation or its affiliates.LoRaWAN(R) is a licensed mark.
+LoRa(R) is a registered trademark or service mark of Semtech Corporation or its affiliates.
+LoRaWAN(R) is a licensed mark.
 ============================
 Device status:
    Auto join enabled
