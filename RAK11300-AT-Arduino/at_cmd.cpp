@@ -1818,6 +1818,12 @@ void at_serial_input(uint8_t cmd)
 		DualSerial(" \b");
 	}
 
+  // Convert to uppercase
+  if (cmd >= 'a' && cmd <= 'z')
+  {
+    cmd = toupper(cmd);
+  }
+
 	if ((cmd >= '0' && cmd <= '9') || (cmd >= 'a' && cmd <= 'z') ||
 		(cmd >= 'A' && cmd <= 'Z') || cmd == '?' || cmd == '+' || cmd == ':' ||
 		cmd == '=' || cmd == ' ' || cmd == ',')
