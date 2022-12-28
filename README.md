@@ -42,7 +42,7 @@ AT+STATUS=?
 ```
 Start network join (requires a gateway connected to a LPWAN server and the device registered on the LPWAN server with above credentials)
 ```
-AT+JOIN=1,0,1,1
+AT+JOIN=1:0:1:1
 ```
 
 Log output:    
